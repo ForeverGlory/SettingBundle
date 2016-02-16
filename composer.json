@@ -1,0 +1,25 @@
+{
+    "name": "foreverglory/setting-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony SettingBundle",
+    "keywords": ["symfony", "bundle", "setting"],
+    "homepage": "http://foreverglory.me",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ForeverGlory",
+            "email": "foreverglory@qq.com",
+            "homepage": "http://foreverglory.me"
+        }
+    ],
+    "require": {
+        "symfony/symfony": "~2.3"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": {"Glory\\SettingBundle": ""}
+    },
+    "minimum-stability": "dev",
+    "target-dir": "Glory/SettingBundle"
+}
