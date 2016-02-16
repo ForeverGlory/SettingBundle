@@ -2,3 +2,8 @@ services:
     glory_setting.manager:
         class: Glory\SettingBundle\Manager\SettingManager
 
+    glory_setting.twig.extension:
+        class: Glory\SettingsBundle\Twig\Extension\SettingsExtension
+        arguments: [@glory_setting.manager]
+        tag:
+            - { name: twig.extension }
