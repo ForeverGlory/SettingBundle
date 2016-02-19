@@ -3,7 +3,7 @@ services:
         class: Glory\SettingBundle\Manager\SettingManager
 
     glory_setting.twig.extension:
-        class: Glory\SettingsBundle\Twig\Extension\SettingsExtension
+        class: Glory\SettingBundle\Twig\Extension\SettingsExtension
         arguments: [@glory_setting.manager]
-        tag:
+        tags:
             - { name: twig.extension }

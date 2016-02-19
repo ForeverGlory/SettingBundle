@@ -21,9 +21,8 @@ class SettingsExtension extends \Twig_Extension
 
     public function getFunctions()
     {
-        $option = array('is_safe' => TRUE);
         return array(
-            new \Twig_SimpleFunction('setting', array($this, 'getSetting'), $option),
+            new \Twig_SimpleFunction('setting', array($this, 'getSetting')),
         );
     }
 
