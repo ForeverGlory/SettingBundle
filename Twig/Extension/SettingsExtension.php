@@ -1,8 +1,8 @@
 <?php
 
-namespace Glory\SettingBundle\Twig\Extension;
+namespace Glory\Bundle\SettingBundle\Twig\Extension;
 
-use Glory\SettingBundle\Manager\SettingManager;
+use Glory\Bundle\SettingBundle\Manager\SettingManager;
 
 /**
  * Description of SettingsExtension

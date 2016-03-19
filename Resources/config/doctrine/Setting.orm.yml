@@ -1,4 +1,4 @@
-Glory\SettingBundle\Entity\Setting:
+Glory\Bundle\SettingBundle\Entity\Setting:
     type: entity
     table: setting
     id:

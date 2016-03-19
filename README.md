@@ -22,7 +22,7 @@ public function registerBundles()
 {
     return array(
         // ...
-        new Glory\SettingBundle\GlorySettingBundle(),
+        new Glory\Bundle\SettingBundle\GlorySettingBundle(),
         // ...
     );
 }
@@ -34,7 +34,7 @@ public function registerBundles()
 glory_setting:
     driver:~    #default %database_driver%
     manager:~   #service id, default if driver is 'pdo_mysql', manager is @doctrine.orm.default_entity_manager
-    model:~     #model class,default if driver is 'pdo_mysql', model is Glory\SettingBundle\Entity\Setting
+    model:~     #model class,default if driver is 'pdo_mysql', model is Glory\Bundle\SettingBundle\Entity\Setting
 ```
 
 ### php code

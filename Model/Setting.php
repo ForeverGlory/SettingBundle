@@ -1,6 +1,6 @@
 <?php
 
-namespace Glory\SettingBundle\Model;
+namespace Glory\Bundle\SettingBundle\Model;
 
 /**
  * Setting

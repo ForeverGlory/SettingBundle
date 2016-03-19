@@ -1,8 +1,8 @@
 <?php
 
-namespace Glory\SettingBundle\Entity;
+namespace Glory\Bundle\SettingBundle\Entity;
 
-use Glory\SettingBundle\Model\Setting as AbstractSetting;
+use Glory\Bundle\SettingBundle\Model\Setting as AbstractSetting;
 
 /**
  * Setting

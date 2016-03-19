@@ -1,6 +1,6 @@
 <?php
 
-namespace Glory\SettingBundle\Manager;
+namespace Glory\Bundle\SettingBundle\Manager;
 
 use Doctrine\Common\Persistence\ObjectManager;
 use Glory\SettingsBundle\Model\Setting;

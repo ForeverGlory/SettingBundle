@@ -1,6 +1,6 @@
 <?php
 
-namespace Glory\SettingBundle\DependencyInjection;
+namespace Glory\Bundle\SettingBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -35,13 +35,13 @@ class GlorySettingExtension extends Extension
                     $config['manager'] = 'doctrine.orm.default_entity_manager';
                 }
                 if (empty($config['model'])) {
-                    $config['model'] = 'Glory\\SettingBundle\\Entity\\Setting';
+                    $config['model'] = 'Glory\\Bundle\\SettingBundle\\Entity\\Setting';
                 }
                 break;
             case 'mongodb':
                 //todo
                 if (empty($config['model'])) {
-                    $config['model'] = 'Glory\\SettingBundle\\Document\\Setting';
+                    $config['model'] = 'Glory\\Bundle\\SettingBundle\\Document\\Setting';
                 }
                 break;
             default:
