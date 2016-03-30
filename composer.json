@@ -13,7 +13,7 @@
         }
     ],
     "autoload": {
-        "psr-0": {"Glory\\Bundle\\SettingBundle": ""}
+        "psr-4": {"Glory\\Bundle\\SettingBundle\\": ""}
     },
     "require": {
         "symfony/symfony": "~2.3"
