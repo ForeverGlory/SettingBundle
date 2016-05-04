@@ -32,7 +32,7 @@ class SettingType extends AbstractType
 
     public function getName()
     {
-        return 'setting';
+        return 'glory_setting';
     }
 
 }

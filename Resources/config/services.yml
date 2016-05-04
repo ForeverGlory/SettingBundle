@@ -7,3 +7,8 @@ services:
         arguments: [@glory_setting.manager]
         tags:
             - { name: twig.extension }
+    
+    glory_setting.form.setting:
+        class: Glory\Bundle\SettingBundle\Form\Type\SettingType
+        tags: 
+            - {name:form.type, alias:glory_setting}
